@@ -108,10 +108,10 @@ To build TPP, you must provide a japanese ROM `./baserom.jp.z64` in the root fol
 #### 2. Install build dependencies
 
 The build system has the following package requirements:
- * binutils-mips >= 2.27
- * python3 >= 3.6
- * libaudiofile
- * libcapstone-dev
+ * [binutils-mips >= 2.27](https://packages.debian.org/unstable/binutils-mips-linux-gnu)
+ * [python3 >= 3.6](https://www.python.org/downloads/release/python-360/)
+ * [libaudiofile](https://github.com/mpruett/audiofile)
+ * [libcapstone-dev](https://packages.debian.org/sid/libcapstone-dev)
 
 __Debian / Ubuntu__
 ```
